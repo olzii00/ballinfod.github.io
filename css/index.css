@@ -1,0 +1,96 @@
+.menu{
+background:#551e60;
+text-align: center;    
+border-radius: 10px;
+color: white;
+border: 2px solid #9c7ea2;
+/* width: 1260px; */
+height: 120px;
+}
+
+.menu ul
+{display: inline-flex;
+list-style: none;
+color: white;}
+
+.menu ul li
+{width: 120px;
+margin: 15px;
+padding: 15px;
+}
+
+
+.menu ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.down menu ul li:hover
+{background: blueviolet;
+border-radius: 3px;}
+
+.sub-menu
+{
+    display: none;
+}
+
+.menu ul li:hover .sub-menu
+{display: block;
+position: absolute;
+background: #491254;
+margin-top: 15px;
+margin-left: -15px;
+border-radius: 10px;
+
+}
+
+.menu ul li:hover .sub-menu ul
+{display: block;
+margin: 10px;}
+
+.menu ul li:hover .sub-menu ul li
+{width: 150x;
+padding: 15px;
+border-top: 1px dotted rgb(0,0,0,0.3);
+border-bottom: 1px dotted rgb(0,0,0,0.3);
+background: transparent;
+border-radius: 10px;
+text-align: left;
+}
+
+.menu ul li:hover .sub-menu ul li:last-child
+{border-bottom: none;
+}
+
+
+.menu ul li:hover .sub-menu ul li a:hover
+{color: blueviolet;}
+
+.menu ul li a:hover 
+{color:blueviolet;}
+
+
+.step
+{width: 440px;
+height: 360px;
+border: 2px solid black;
+margin-left: 100px;
+padding-left: -30px;
+border-radius: 20px;
+box-shadow: -30px 30px 20px  rgb(0,0,0,0.3);
+background-color: gray;
+padding-bottom:17px;
+ }
+.padd
+{margin-left: 10px;
+margin-right: 10px;}
+.heb
+{width: 150px;
+height: 30px;
+border: 1px solid gray;
+border-radius: 10px;
+padding-left: 30px;
+margin-left: 50px;
+padding-top: 15px;
+background-color: blueviolet;}

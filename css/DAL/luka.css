@@ -1,0 +1,51 @@
+.neg{color: gray;
+font-family: 'Times New Roman', Times, serif;
+border-radius: 5px;
+width: 400px;
+height: 50px;
+padding-left: 10px;
+padding-top: 10px;
+font-size: 2em;
+background-color: black;
+border-bottom: 3px solid white;
+}
+.tsagaan{color: white;}
+
+
+/* shagnal */
+
+.shagnal
+{width: 400px;
+height: 50px;
+padding-left: 10px;
+padding-top: 10px;
+font-size: 1.5em;
+background-color: black;
+border-bottom: 3px solid white;
+background-color: black;
+color: white;}
+
+.barun{float: right;
+padding-right: 10px;}
+
+body
+{background-color: gray;}
+/* div 
+{text-align: center;} */
+.lol{
+    margin-left: 34%;
+  }
+  img{ width: 180px;
+     height: 180px; 
+     border-radius: 50%;
+    margin-left: auto;
+margin-right: auto;
+display: block;
+border: 3px solid black;}
+h1
+{text-align: center;}
+h3
+{text-align: center;}
+.ner
+{margin-left: calc(35%);
+font-weight: bold;}
